@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01712c2209e595443b16e528ab7bcdd9, type: 3}
+  m_Name: MainGameSettings
+  m_EditorClassIdentifier: 
+  mapSettings:
+    _playerSpawnPosition: {fileID: 3886731746768158797, guid: 4d1beb9ff7d91e240926ce5649e6caec,
+      type: 3}
+    _generationSourcePoint: {fileID: 5404820353449931947, guid: 172fdb54f0492d443a0661f74a07253c,
+      type: 3}
+    _bounds: {x: 12, y: 5, z: 12}
+    _startPosition: {x: -5, y: -5, z: -5}
+    _startPlatformScale: {x: 3, y: 1, z: 3}
+    _tilePrefab: {fileID: 5537464761953889858, guid: 4bab8c7fb14f68540badca327e0283a7,
+      type: 3}
+    _tileFallDelay: 2
+    _tileFallTime: 2
+  playerSettings:
+    _playerPrefab: {fileID: 208615179060016569, guid: 703aabc2ceccf854ab0ad8d8b4b2235e,
+      type: 3}
+    _speed: 3
+    _fallTime: 2
+  bonusItemSettings:
+    _spawnProbability: 0.15
+    _crystalBonusItemSettings:
+      _probabilityDensity: 1
+      _relativePosition: {x: 0, y: 0.8, z: 0}
+      _prefab: {fileID: 8056889226256468764, guid: e9317173e9ad3224685170297201a7ae,
+        type: 3}
+  scoreCounterSettings:
+    _tilePrice: 1
+    _bonusPrice: 5
